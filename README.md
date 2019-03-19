@@ -1,6 +1,8 @@
-# Informative git prompt for zsh
+# Informative git prompt for zsh [Fork on performance]
 
-[![Build Status](https://travis-ci.org/olivierverdier/zsh-git-prompt.svg)](https://travis-ci.org/olivierverdier/zsh-git-prompt)
+**Note:** This fork focuses on reimplementing the data fetching section, that
+was made in python, in bash, using efficient git ls-files commands. Expect
+significant improvement on large git repositories.
 
 A `zsh` prompt that displays information about the current git repository. In particular the branch name, difference with remote branch, number of files staged, changed, etc.
 
